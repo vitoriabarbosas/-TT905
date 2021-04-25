@@ -30,3 +30,30 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+section{
+    background: #E6E6FA;
+    width: 45%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    background: #F5F5F5;
+    width: 45%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.centralizado{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  width:600px;
+  height:180px;
+  margin:auto;
+  font-family:sans-serif;
+}
