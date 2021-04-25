@@ -1,0 +1,32 @@
+h2 {
+    color: blueviolet; 
+    font-family: sans-serif; 
+    text-align: center;
+}
+
+h1{ 
+    color: blueviolet;
+    font-family: sans-serif; 
+    text-align: center;
+}
+
+p{
+    color: violet; 
+    font-family: sans-serif;
+}
+
+div{
+    background: #DCDCDC;
+    width: 45%;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background: White; 
+    margin: 4%;
+    justify-content: center;
+    align-items: center;
+}
