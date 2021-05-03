@@ -1,0 +1,67 @@
+h1 {
+    color: blueviolet;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h2 {
+    color: blueviolet;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h5 {
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+body {
+    background: White;
+    margin: 4%;
+}
+
+section {
+    margin: 1%;
+    margin-top: 7%;
+}
+
+div {
+    background: #DCDCDC;
+    width: 45%;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    background-color: rebeccapurple;
+    color: white;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.menu ul li a {
+    font-family: sans-serif;
+    float: left;
+    display: inline-block;
+    width: 208px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    transition-property: width, color;
+    transition-duration: 2s;
+    transition-delay: 0, 1s;
+    transition-timing-function: linear;
+}
+
+.menu ul li a:hover {
+    background-color: rebeccapurple;
+    height: 35px;
+    width: 160px;
+}
+
+div:hover {
+    background-color: #C0C0C0;
+}
