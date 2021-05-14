@@ -1,6 +1,7 @@
 var slideIndex = 0;
 showSlides(slideIndex);
 
+
 // Next/previous controls
 function plusSlides(n) {
     showSlides(slideIndex += n);
@@ -10,16 +11,26 @@ function plusSlides(n) {
 // Thumbnail image controls
 function currentSlide(n) {
     showSlides(slideIndex = n);
+    
 }
 
 function showSlides(n) {
     var i;
     var slides = document.getElementsByClassName("minhaFoto");
+    element = document.getElementById("vitoria")
+    element.classList.add("minhaFoto");
+      
+    
+
+
     if (n > slides.length) {
         slideIndex = 1
+        
     }
     if (n < 1) {
         slideIndex = slides.length
+        
+        
     }
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";

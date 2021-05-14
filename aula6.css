@@ -24,6 +24,7 @@ div {
     text-align: center;
     justify-content: center;
     align-items: center;
+    
 }
 
 .menu ul li a {
@@ -39,7 +40,7 @@ div {
     height: 40px;
     margin-top: -2%;
     margin-left: -4%;
-    margin-right: 3.3%;
+    margin-right: 2.2%;
 }
 
 .menu ul li a:hover {
@@ -77,6 +78,12 @@ a {
     display: none;
     text-align: center;
 }
+
+.minhaFotoMat {
+    display: none;
+    text-align: center;
+}
+
 
 
 /* Next & previous buttons */
@@ -127,11 +134,15 @@ a {
     font-size: 12px;
     padding: 8px 12px;
     width: 100%;
-    text-align: center;
+    text-align: center;    
+    margin-left: 100px;
+
 }
 
 .tamanhofoto {
     width: 100%;
+    margin-left: 100px;
+
 }
 
 
@@ -144,6 +155,8 @@ a {
     padding: 8px 12px;
     position: absolute;
     top: 0;
+    margin-left: 100px;
+    
 }
 
 @media (max-width: 768px) {
